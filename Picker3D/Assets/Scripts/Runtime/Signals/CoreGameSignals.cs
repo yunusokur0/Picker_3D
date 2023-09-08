@@ -19,4 +19,5 @@ public class CoreGameSignals : MonoSingleton<CoreGameSignals>
     public UnityAction onFinishAreaEntered = delegate { };
     public UnityAction onMiniGameAreaEntered = delegate { };
     public UnityAction onMultiplierAreaEntered = delegate { };
+    //*03/{ss]\/
 }
