@@ -1,12 +1,11 @@
-﻿using TMPro;
+using TMPro;
 using UnityEngine;
-
 
 public class MiniGameSpeedAmount : MonoBehaviour
 {
     [SerializeField] private TextMeshPro[] poolText;
     private LevelData _data;
-    private int currentTotal;
+    private int _currentTotal;
 
     private void Awake()
     {
@@ -14,8 +13,9 @@ public class MiniGameSpeedAmount : MonoBehaviour
     }
     private LevelData GetLevelData()
     {
-        return Resources.Load<CD_Level>("Data/CD_Level").Levels[0];
+        return Resources.Load<CD_Level>("Data/CD_Level").Levels[(int)CoreGameSignals.Instance.onGetLevelValue?.Invoke()];
     }
+
     private void OnEnable()
     {
         SubscribeEvents();
@@ -25,26 +25,25 @@ public class MiniGameSpeedAmount : MonoBehaviour
     {
         UISignals.Instance.onMiniGameBar += OnMiniGameBar;
     }
-   
+
     private void OnMiniGameBar()
     {
-     
-        currentTotal = 0;
+        _currentTotal = 0;
 
         foreach (TextMeshPro text in poolText)
         {
             int number;
             if (int.TryParse(text.text, out number))
             {
-                currentTotal += number;
+                _currentTotal += number;
             }
         }
-        LevelPanelController.Instance.MiniGameBarImage.fillAmount = (float)currentTotal / _data.total;
-        Debug.Log("currentTotal: " + currentTotal);
-        Debug.Log("_data.total: " + _data.total);
+        LevelPanelController.Instance.MiniGameBarImage.fillAmount = (float)_currentTotal / _data.total;
+        Debug.Log("currentTotal: " + _currentTotal);
+        Debug.Log("data.total: " + _data.total);
         Debug.Log("fillImage.fillAmount: " + LevelPanelController.Instance.MiniGameBarImage.fillAmount);
     }
- 
+
     private void UnSubscribeEvents()
     {
         UISignals.Instance.onMiniGameBar -= OnMiniGameBar;
