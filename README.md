@@ -4,7 +4,7 @@ PICKER 3D CLONE
 Kullanılan desenler     
 ====================
 ---
-Singleton Pattern
+## Singleton Pattern
 ----
 Observer Pattern
 ----
