@@ -3,7 +3,9 @@ PICKER 3D CLONE
 
 . Kullanılan desenler     
 ====================
+
 ---
+
 &#8226; Singleton Pattern
 
 &#8226; Observer Pattern
@@ -24,13 +26,15 @@ PICKER 3D CLONE
 
 Kullanılan Ek Paketler      
 =======================
+
 ---
-DOTween Pro
-----
-Odin Inspector
-----
-Cinemachine
-----
-MK Toon
-----
+
+&#8226; DOTween Pro
+
+&#8226; Odin Inspector
+
+&#8226; Cinemachine
+
+&#8226; MK Toon
+
 ---
