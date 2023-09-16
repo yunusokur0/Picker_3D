@@ -38,13 +38,7 @@ Kullanılan Ek Paketler
 &#8226; MK Toon
 
 ---
-
-![Adsız tasarım](https://github.com/yunusokur0/Picker_3D/assets/114630722/7d1983b7-3504-4777-a387-61abb0015d4e)
-
 ---
-
 ![Adsız tasarım (2)](https://github.com/yunusokur0/Picker_3D/assets/114630722/d77951c3-e7b0-49a4-aac7-63b996232650)
-
-
 ---
 
