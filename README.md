@@ -43,7 +43,8 @@ Kullanılan Ek Paketler
 
 ---
 
-![Uploading Adsız tasarım (2).gif…]()
+![Adsız tasarım (2)](https://github.com/yunusokur0/Picker_3D/assets/114630722/d77951c3-e7b0-49a4-aac7-63b996232650)
+
 
 ---
 
