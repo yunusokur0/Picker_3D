@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class MiniGameReward : MonoBehaviour
 {
+    [SerializeField] private byte stageID;
     private MiniGameRewardData _data;
     private readonly string _player = "Player";
-    [SerializeField] private byte stageID;
+    private readonly string _dataPath = "Data/CD_MiniGameReward";
+    
     private void Awake()
     {
         _data = GetPoolData();
@@ -12,11 +14,11 @@ public class MiniGameReward : MonoBehaviour
 
     private MiniGameRewardData GetPoolData()
     {
-        return Resources.Load<CD_MiniGameReward>("Data/CD_MiniGameReward").Rewards[stageID];
+        return Resources.Load<CD_MiniGameReward>(_dataPath).Rewards[stageID];
 
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(_player))
         {
