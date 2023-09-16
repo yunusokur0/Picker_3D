@@ -1,7 +1,7 @@
 PICKER 3D CLONE
 ===============
 
-Kullanılan desenler     
+. Kullanılan desenler     
 ====================
 ---
 .. Singleton Pattern
@@ -12,7 +12,9 @@ Kullanılan desenler
 .. Interface Pattern
 .. Extension Pattern
 .. Enum Pattern
+
 ---
+
 Kullanılan Ek Paketler      
 =======================
 ---
