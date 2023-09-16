@@ -26,21 +26,6 @@ Kullanılan desenler
 &#8226; Enum Pattern
 
 ---
-
-Kullanılan Ek Paketler      
-=======================
-
----
-
-&#8226; DOTween Pro
-
-&#8226; Odin Inspector
-
-&#8226; Cinemachine
-
-&#8226; MK Toon
-
----
 ---
 ![Adsız tasarım (2)](https://github.com/yunusokur0/Picker_3D/assets/114630722/d77951c3-e7b0-49a4-aac7-63b996232650)
 ---
