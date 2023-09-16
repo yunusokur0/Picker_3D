@@ -39,11 +39,6 @@ Kullanılan Ek Paketler
 
 ---
 
-https://github.com/yunusokur0/Picker_3D/assets/114630722/ba5a19de-ccf3-48d9-b7ca-49f7381131ab
-
----
-
-
 ![Adsız tasarım](https://github.com/yunusokur0/Picker_3D/assets/114630722/7d1983b7-3504-4777-a387-61abb0015d4e)
 
 ---
